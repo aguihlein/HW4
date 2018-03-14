@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>The Daily Wrist</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+
+    footer {
+      background-color: #f2f2f2;
+      padding: 10px;
+    }
+  </style>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"> </script>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Your Daily Wrist</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">Headlines</a></li>
+        <li><a href="#">Editorial</a></li>
+        <li><a href="#">European Edition</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login to access exclusive content</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="jumbotron">
+  <div class="container text-center">
+    <h1>The Daily Wrist</h1>
+    <p>Look no further than your hand...</p>
+  </div>
+</div>
+
+<div class="container-fluid bg-3 text-center">
+  <h3>Today's Featured Articles</h3><br>
+  <div class="container">
+        <div class="row">
+          <div class="col-md-4 text-left">
+            <h2>A Good Start For Swiss Watch Exports In 2018</h2>
+            <p>Switzerland's fledgling watch recovery picked up steam in January. Global exports of Swiss watches jumped 12.6% to 1.62 billion Swiss francs ($1.73 billion), according to data released Tuesday by the Federation of the Swiss Watch Industry (FH). The double-digit jump follows a 2.7% increase in exports in 2017, after a two-year export slump. It's a sign that the recovery that began in the Far East in the second half of 2017 is gaining momentum, as retailers replenish depleted watch stocks. It also backs up a growing number of optimistic forecasts for the Swiss watch industry in 2018.</p>
+            <p><a class="btn btn-default" href="#" role="button">Continue reading &raquo;</a></p>
+          </div>
+          <div class="col-md-4 text-left">
+            <h2>Smartwatches A Blessing And A Curse For Fossil</h2>
+            <p>Apple's launch of the Watch in April 2015 has had a profound impact on the watch business. Media attention has focused for the most part on whether Apple poses a threat to Swiss watchmakers. (Not without reason: It is affecting the high-volume, under-$1,000 segment of the Swiss industry.) But the Apple Watch's biggest impact, as we noted here a few months ago, has been on the watch industry's huge fashion-watch segment, whose leader is the Texas-based Fossil Group. Fossil Group sales, which were at record highs in 2014, have been clobbered since the Apple Watch launch. So has its stock price. </p>
+            <p><a class="btn btn-default" href="#" role="button">Continue reading &raquo;</a></p>
+         </div>
+          <div class="col-md-4 text-left">
+            <h2>Signs Of Recovery For Japanese Watchmakers</h2>
+            <p>weaker yen and stronger watch sales in Asia are bringing some relief to Japanese watch producers. Japan’s Citizen and Seiko reported a surge in profits for the first six months of fiscal 2017, ended September 30. Citizen Watch Co. Ltd. reported flat watch sales of ¥77.4 billion ($697.3 million) and a 32% jump in operating profit in the watch division to ¥8.5 billion ($76.6 million). Watch sales at Seiko Holdings Corp. jumped 5% to ¥67.9 billion ($611.7 million). Operating profit rose 21% to ¥4.3 billion ($38.7 million. (Casio, Japan’s third major watch producer, reports its watch data differently. </p>
+            <p><a class="btn btn-default" href="#" role="button">Continue reading &raquo;</a></p>
+          </div>
+        </div>
+</div><br>\
+
+<div class="container-fluid bg-3 text-center">
+  <h3>Beyond the Wrist</h3><br>
+  <div class="container">
+    <div class="row">
+        <div class="col-md-4">
+          <h4>Weather Report</h4>
+          <div id="weather" class="card">
+            <img class="card-img-top bg-primary img-fluid" src="http://openweathermap.org/img/w/01d.png">
+          </div>
+            <div class="card-body">
+              <h4 class="card-title">Paris</h4>
+              <p class="card-text">It is 81 degrees outside.</p>
+              <a id="get_forecast" href="#" class="btn btn-primary">Get Current Temperature</a>
+              <script type="text/javascript" src="weather.js"> </script>
+            </div>
+        </div>
+        <div class="col-md-4">
+          <h4>New York Times</h4>
+
+          <!-- <script type="text/javascript" src="nyt.js"> </script> --> -->
+        </div>
+        <div class="col-md-4">
+          <h4>Global Headlines</h4>
+
+          <!-- <script type="text/javascript" src="newsapi.js"> </script> -->
+        </div>
+
+</div><br><br>
+
+<div class="container-fluid bg-3 text-center">
+  <h3>From our Sponsors</h3><br>
+<div class="container-fluid bg-3 text-center">
+  <div class="row">
+    <div class="col-sm-4">
+      <p>Get Complicated with Vacheron</p>
+      <img src="vacheron.jpg" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-4">
+      <p>Hublot Will Turn You Red!</p>
+      <img src="hublot.jpg" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-4">
+      <p>Care to Partier?</p>
+      <img src="cartier.jpg" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+  </div>
+</div><br><br>
+
+
+<footer class="container-fluid text-center">
+  <p>"Copy-written, so, don't copy me"</p>
+</footer>
+
+<script type="text/javascript" src="weather.js"> </script>
+</body>
+</html>
